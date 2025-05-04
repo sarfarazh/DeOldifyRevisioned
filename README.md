@@ -45,9 +45,11 @@ This project continues DeOldify's mission to bring color to old black-and-white 
    ```bash
    mkdir -p models
    # For artistic model (default)
-   wget https://data.deepai.org/deoldify/ColorizeArtistic_gen.pth -O ./models/ColorizeArtistic_gen.pth
+   wget https://huggingface.co/spensercai/DeOldify/resolve/main/ColorizeArtistic_gen.pth -O ./models/ColorizeArtistic_gen.pth
    # For stable model (optional)
-   # wget https://www.dropbox.com/s/mwjep3vyqk5mkjc/ColorizeStable_gen.pth -O ./models/ColorizeStable_gen.pth
+   # wget https://huggingface.co/spensercai/DeOldify/resolve/main/ColorizeStable_gen.pth -O ./models/ColorizeStable_gen.pth
+   # For video model (optional)
+   # wget https://huggingface.co/spensercai/DeOldify/resolve/main/ColorizeVideo_gen.pth -O ./models/ColorizeStable_gen.pth
    ```
 
 ### Running the Jupyter Notebooks
